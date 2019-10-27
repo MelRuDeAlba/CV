@@ -8,15 +8,21 @@ import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Extra from '../components/Extra';
 import Skills from '../components/Skills';
+import Languages from '../components/Languages';
 import useGetData from '../hooks/useGetData';
 
 const GlobalStyle = createGlobalStyle`
+    html {
+        min-height: 100%; 
+        background-size: cover;
+        background: #5de6de;
+        background-repeat:no-repeat;
+        background: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+    }
     body {
         font-family: 'Montserrat', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #5de6de;
-        background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
     }    
 `;
 
@@ -44,7 +50,7 @@ const App = () => {
                 <Education />
                 <Experience />
                 <Skills />
-                <Extra />
+                <Languages />
             </Info>
         </Main>
     );

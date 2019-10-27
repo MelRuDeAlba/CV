@@ -6,6 +6,6 @@ const StyledSpan = styled.span`
     color: #92D6EE;
 `;
 
-const SpanStyled = ({ date }) => <StyledSpan><i class="fas fa-calendar-alt"></i> {date} </StyledSpan>;
+const SpanStyled = ({ date }) => <StyledSpan><i className="fas fa-calendar-alt"></i> {date} </StyledSpan>;
 
 export default SpanStyled;

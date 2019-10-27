@@ -7,6 +7,6 @@ const StyledSpan = styled.span`
     margin: 0  0 0 .8em;
 `;
 
-const LocationStyled = ({ location }) => <StyledSpan> <i class="fas fa-map-marker-alt"></i> {location}</StyledSpan>;
+const LocationStyled = ({ location }) => <StyledSpan> <i className="fas fa-map-marker-alt"></i> {location}</StyledSpan>;
 
 export default LocationStyled;

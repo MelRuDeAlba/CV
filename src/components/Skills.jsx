@@ -30,6 +30,7 @@ const SkillsContainer = styled.div`
 
 const SkillsItem = styled.p`
     padding: .5em 1em;
+    margin: 0;
     font-weight: 600;
     width: fit-content;
     border-bottom: 1px solid #0E0C27;

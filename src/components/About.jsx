@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const  AboutStyles = styled.div`
     text-align: center;
+    padding: .5em;
 `;
 
 const  AboutAvatar = styled.div`
