@@ -21,7 +21,8 @@
   "homepage": "https://github.com/MelRuDeAlba/CV#readme",
   "dependencies": {
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",

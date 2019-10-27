@@ -1,33 +1,85 @@
 import React  from 'react';
 import Social from './Social';
+import styled from 'styled-components';
+
+const  AboutStyles = styled.div`
+    text-align: center;
+    background-color: #5de6de;
+    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+`;
+
+const  AboutAvatar = styled.div`
+   padding: 2em 0 0 0;
+`;
+
+const  AboutImg = styled.img`
+   border-radius: 100%;
+   width 180px;
+   height 180px;
+   border: 3px solid #92D6EE;
+   margin: 0 auto;
+   display: block;
+   box-shadow: 0 0 20px rgba(81,55,115,0.8);
+`;
+
+const  AboutName = styled.div`
+    text-align: center;
+`;
+
+const  AboutH2 = styled.h2`
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin: .5em 0 0 0;
+    color: #513773;
+`;
+
+const  AboutProfession = styled.p`
+    margin: .2em 0 1em 0;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    color: #513773;
+`;
+
+const  AboutBio = styled.p`
+    font-weight: 300;
+    font-size: 1em;
+    color: #0E0C27 ;
+`;
+
+const  AboutLocation = styled.p`
+    font-weight: 400;
+    font-size: 1em;
+    color: #0E0C27 ;
+`;
 
 const About = ({ avatar_url, name, location, bio, social }) => (
-    <div className="About">
+    <AboutStyles>
         <div className="About-container">
-           <div className="About-avatar">
+           <AboutAvatar>
                <figure>
-                   <img src={avatar_url} alt={name} />
+                   <AboutImg src={avatar_url} alt={name} />
                </figure>
-           </div>
-           <div className="About-name">
-               <h2>{name}</h2>
-           </div>
+           </AboutAvatar>
+           <AboutName>
+               <AboutH2>{name}</AboutH2>
+           </AboutName>
            <div className="About-profession">
-               <p>FrontEnd Developer</p>
+               <AboutProfession>FrontEnd Developer</AboutProfession>
            </div>
            <div className="About-description">
-                <p>
+                <AboutBio>
                    {bio}
-                </p>
+                </AboutBio>
            </div>
            <div className="About-location">
-               <p>{location}</p>
+               <AboutLocation>{location}</AboutLocation>
            </div>
            <div className="About-social">
                <Social social={social} />
            </div>
         </div>
-    </div>
+    </AboutStyles>
 );
 
 export default About;
