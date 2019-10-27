@@ -26,7 +26,6 @@ const  AboutName = styled.div`
 `;
 
 const  AboutH2 = styled.h2`
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
