@@ -39,6 +39,11 @@ const  AboutProfession = styled.p`
     font-weight: 300;
     color: #513773;
 `;
+const  AboutMail = styled.p`
+    margin: .2em 0 1em 0;
+    font-size: 12px;
+    color: #513773;
+`;
 
 const  AboutBio = styled.p`
     font-weight: 300;
@@ -65,6 +70,9 @@ const About = ({ avatar_url, name, location, bio, social }) => (
            </AboutName>
            <div className="About-profession">
                <AboutProfession>FrontEnd Developer</AboutProfession>
+           </div>
+           <div className="About-mail">
+               <AboutMail><i className="fas fa-envelope"></i> Rubi_93_22@hotmail.com</AboutMail>
            </div>
            <div className="About-description">
                 <AboutBio>
