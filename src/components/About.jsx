@@ -4,8 +4,6 @@ import styled from 'styled-components';
 
 const  AboutStyles = styled.div`
     text-align: center;
-    background-color: #5de6de;
-    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
 `;
 
 const  AboutAvatar = styled.div`
@@ -14,9 +12,9 @@ const  AboutAvatar = styled.div`
 
 const  AboutImg = styled.img`
    border-radius: 100%;
-   width 180px;
-   height 180px;
-   border: 3px solid #92D6EE;
+   width 150px;
+   height 150px;
+   border: 2px solid #6E5694;
    margin: 0 auto;
    display: block;
    box-shadow: 0 0 20px rgba(81,55,115,0.8);
@@ -28,7 +26,7 @@ const  AboutName = styled.div`
 
 const  AboutH2 = styled.h2`
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1.2px;
     margin: .5em 0 0 0;
     color: #513773;
@@ -43,7 +41,7 @@ const  AboutProfession = styled.p`
 
 const  AboutBio = styled.p`
     font-weight: 300;
-    font-size: 1em;
+    font-size: 14px;
     color: #0E0C27 ;
 `;
 
