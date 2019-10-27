@@ -2,4 +2,4 @@
 # [Live page](https://melrudealba.github.io/CV/)
 #
 #
-![alt test]('./prev.png');
+![alt test]('./prev.PNG');
