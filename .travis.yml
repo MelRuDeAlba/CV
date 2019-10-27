@@ -1,5 +1,5 @@
 language: node_js
-cache: 
+cache:
   directories:
     - ~!@/.npm
 node_js:
@@ -8,6 +8,7 @@ git:
   depth: 3
 script:
   - yarn build
+  - echo 'url-personaliza.com' > public/CNAME
 deploy:
   provider: pages
   skip-cleanup: true
@@ -17,4 +18,4 @@ deploy:
   target-branch: master
   commit_message: "Deploy release ${TRAVIS_TAG}"
   on:
-    branch. develop
+    branch: develop
