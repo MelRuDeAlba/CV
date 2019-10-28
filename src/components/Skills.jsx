@@ -26,6 +26,9 @@ const SkillsContainer = styled.div`
     grid-row-gap: 0.5em;
     text-align: center;
     font-size: 12px;
+    @media only screen and (max-width : 767px) {
+        grid-template-columns: repeat(3, 1fr)
+    }
 `;
 
 const SkillsItem = styled.p`

@@ -48,7 +48,7 @@ const App = () => {
             </Sidebar>
             <Info>
                 <Education />
-                <Experience />
+                <Experience />                
                 <Skills />
                 <Languages />
             </Info>

@@ -7,7 +7,10 @@ const LanguagesContainer = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     grid-row-gap: 0.5em;
-    text-align: center;
+    text-align: center;    
+    @media only screen and (max-width : 767px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 const LanguagesItem = styled.div`
