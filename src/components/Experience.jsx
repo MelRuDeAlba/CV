@@ -22,7 +22,7 @@ const Experience = () => (
                     <DateStyled date={'2016 - 2019'} /> 
                     <LocationStyled location={'Guadalajara, Jalisco. México'} />
                 </StyledDiv>                
-                <PStyled name={'Projects with ReactcCalling RESTful API secured with OAuth, we create the user interface where they can check their profiles, contact others and upload documents.'} />
+                <PStyled name={'Projects with React, Calling RESTful API secured with OAuth, we create the user interface where they can check their profiles, contact others and upload documents.'} />
                 <PStyled name={'Projects with Scriptcase, CRM created with php and javascript.'} />
            </div>
            <div className="Experience-item">
