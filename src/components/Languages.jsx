@@ -42,12 +42,12 @@ const Languages = () => (
                 </LanguagesRate>
             </LanguagesItem>
             <LanguagesItem>
-                <p>English - Intermediate</p>
+                <p>English - Upper Intermediate</p>
                 <LanguagesRate>
                     <i className="fas fa-circle"></i>
                     <i className="fas fa-circle"></i>
                     <i className="fas fa-circle"></i>
-                    <i className="far fa-circle"></i>
+                    <i className="fas fa-circle"></i>
                     <i className="far fa-circle"></i>
                 </LanguagesRate>
             </LanguagesItem>
